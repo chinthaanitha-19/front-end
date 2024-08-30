@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Application Form</h2>
+    <form action="/submit" method="=post">
+        <label for="name">firstname: </label> <br>
+        <input type="text" id="name" required><br><br>
+
+        <label for="name"> lastname: </label> <br>
+        <input type="text" id="name" required> <br><br>
+
+        <label for="email">email:</label> <br>
+        <input type="email" id="email" required> <br><br>
+
+        <label for="phone">mobile number</label> <br>
+        <input type="tel" id="phone" required> <br><br>
+
+        <label for="gender">Gender</label><br>
+        <input type="radio" id="gender" value="female" required> 
+        <label for="female">female</label> <br>
+        <input type="radio" id="gender" value="male" required> 
+        <label for="male">male</label> <br>
+        <input type="radio" id="gender" value="others" required> 
+        <label for="others">others</label> <br><br>
+
+        <label for="adress">adress:</label> <br>
+        <textarea id="address" name="address" rows="4" required></textarea><br><br>
+
+        <label for="position">Position Applied For:</label><br>
+        <input type="text" id="position" name="position" required><br><br>
+
+        <label for="resume">Upload Resume:</label><br>
+        <input type="file" id="resume" name="resume" required><br><br>
+
+        <button type="submit">Submit Application</button>
+
+    </form>
+    
+</body>
+</html>
