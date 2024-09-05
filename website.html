@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food Restaurant</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        h2 {
+            font-size: 50px;
+            color: rgb(10, 18, 19);
+            text-align: center;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        
+        .header {
+            background-color: #ff6347;
+            padding: 10px 0;
+            text-align: center;
+            color: white;
+        }
+        .header h1 {
+            margin: 0;
+        }
+
+       
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #ff4500;
+        }
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            padding: 15px 20px;
+        }
+        .navbar ul li:hover {
+            background-color: #ff6347;
+        }
+        .menu-section {
+            padding: 50px;
+            text-align: center;
+        }
+        .menu-section h2 {
+            margin-bottom: 30px;
+            font-size: 40px;
+        }
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .menu-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .menu-item img {
+            border-radius: 10px;
+        }
+        .menu-item h3 {
+            margin: 15px 0;
+            font-size: 24px;
+        }
+        .menu-item p {
+            font-size: 18px;
+            color: #777;
+        }
+
+        .footer {
+            background-color: #ff4500;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>FastFood Delight</h1>
+        <p>Delicious Fast Food, Freshly Made</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h2>Welcome to FastFood Delight</h2>
+    </section>
+
+    <section class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90" alt="Burger">
+                <h3>Classic Burger</h3>
+                <p>A juicy chicken patty with lettuce, tomato, and our special sauce.</p>
+            </div>
+
+           
+            <div class="menu-item">
+                <img src="french-fries.jpg" alt="Fries">
+                <h3>French Fries</h3>
+                <p>Golden crispy fries, served with ketchup or mayo.</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="pizza1.jpg" alt="Pizza">
+                <h3>Cheese Pizza</h3>
+                <p>Freshly baked pizza with 7types of cheese and tomato sauce.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 FastFood Delight. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
